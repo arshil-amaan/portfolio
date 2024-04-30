@@ -14,7 +14,8 @@ body {
     font-size: 100%;
     line-height: 1.5;
     color: #555;
-    font-family: 'Nunito Sans', sans-serif
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100vw;
 }
 
 article,
@@ -790,7 +791,8 @@ a img {
     justify-content: space-between;
     width: 90%;
     max-width: 960px;
-    margin: 0 auto
+    margin: 0 auto;
+    /* overflow-x: ; */
 }
 
 @media only screen and (min-width:550px) {
