@@ -231,7 +231,9 @@ hr {
 .header-icons {
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    position:sticky !important;
+    top: 0;
 }
 
 .down,
